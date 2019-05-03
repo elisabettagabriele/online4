@@ -57,7 +57,7 @@
     
          
     function refreshMessages(){
-        let url = "https://obscure-dusk-81429.herokuapp.com/finalServer.php";
+        let url = "https://tryingweb.herokuapp.com/finalServer.php";
         fetch(url, {method: "GET", mode: 'no-cors'})   
         
         .then(checkStatus)
@@ -78,7 +78,7 @@
         var formData = new FormData();
             formData.append("files[]", "yoyoyoyo");     
         //post to php
-        let url = "https://obscure-dusk-81429.herokuapp.com/finalServer.php";
+        let url = "https://tryingweb.herokuapp.com/finalServer.php";
         fetch(url, {method: "POST", body: formData})  
         
              
