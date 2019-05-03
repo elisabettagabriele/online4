@@ -10,8 +10,8 @@
 
 <?php
 echo "hello can anybody see this";
-    print_r($_FILES);
-
+     foreach ($_FILES as $value) {
+        echo $value;
 ?>
     
     
