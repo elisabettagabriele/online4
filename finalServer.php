@@ -10,7 +10,7 @@
 
 <?php
 echo "hello can anybody see this";
-   print_r(json_encode($_FILES));
+   print_r($_FILES);
 
 ?>
     
