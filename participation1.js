@@ -76,7 +76,7 @@
     function sendMessage(){
       var message = textField.value;
         var formData = new FormData();
-         formData.append("files", message);    
+            formData.append("files[]", "yoyoyoyo");     
         //post to php
         let url = "https://obscure-dusk-81429.herokuapp.com/finalServer.php";
         fetch(url, {method: "POST", body: formData})  
