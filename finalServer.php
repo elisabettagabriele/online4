@@ -10,7 +10,7 @@
 
 <?php
 echo "hello can anybody see this";
-   print_r($_FILES);
+    print_r($_FILES[0]);
 
 ?>
     
